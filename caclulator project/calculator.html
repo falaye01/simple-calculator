@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator Project</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+     <div class="div1">
+         <input id="displayInput" dir="rtl" maxlength="10"  readonly>
+     </div>
+     <div class="area">
+        <table>
+            <tr>
+                <td><button onclick="displayButton('7')">7</button></td>
+                <td><button onclick="displayButton('8')">8</button></td>
+                <td><button onclick="displayButton('9')">9</button></td>
+                <td><button onclick="displayButton('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayButton('4')">4</button></td>
+                <td><button onclick="displayButton('5')">5</button></td>
+                <td><button onclick="displayButton('6')">6</button></td>
+                <td><button onclick="displayButton('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="displayButton('1')">1</button></td>
+                <td><button onclick="displayButton('2')">2</button></td>
+                <td><button onclick="displayButton('3')" >3</button></td>
+                <td><button onclick="displayButton('x')">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearInput()">C</button></td>
+                <td><button onclick="displayButton('0')">0</button></td>
+                <td><button onclick="calculate()">=</button></td>
+                <td><button onclick="displayButton('/')">/</button></td>
+            </tr>
+        </table>
+
+     </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

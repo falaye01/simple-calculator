@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250 204 21);
+}
+.container{
+    height: 25em;
+    width: 19em;
+    background-color: rgb(10 10 10);
+    margin-top: 3em;
+    margin-left: 25em;
+    border-radius: 10px;
+    position: relative;
+}
+.div1{
+    height: 4em;
+    width: 17em;
+    background-color: rgb(46 16 101);
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    border-radius: 10px;
+}
+.area{
+    height: 18em;
+    width: 17em;
+    background-color: rgb(250 204 21);
+    position: absolute;
+    top: 6em;
+    left: 1em;
+    border-radius: 10px;
+}
+input{
+    height: 2em;
+    width: 8em;
+    border-radius: 10px;
+    background-color: rgb(46 16 101);
+    border: none;
+    font-size: 2rem;
+    color: white;
+    padding-top: 1em;
+} 
+input:focus{
+    border: none;
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+    
+
+table {
+    /* border-collapse: collapse; */
+    width: 15em;
+    margin-top: 0.3em;
+    margin-right: 0.3em;
+}
+
+td {
+    padding: 0.4em;
+
+}
+
+button {
+    width: 67px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+td:last-child button {
+    background-color: rgb(49 46 129)
+}
+
+td:last-child button:hover {
+    background-color: rgb(79 70 229);
+}
+
+button.operator {
+    background-color: #f9a825;
+    color: #fff;
+}
+
+button.operator:hover {
+    background-color: #f57f17;
+}
+
+button.operator:active {
+    background-color: #f57f17;
+}
+
